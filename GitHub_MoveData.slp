@@ -263,7 +263,16 @@
                                             "value": "$name"
                                         },
                                         "targetPath": {
-                                            "value": "$firstName"
+                                            "value": "name"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "Date.now()"
+                                        },
+                                        "targetPath": {
+                                            "value": "dateToday"
                                         }
                                     }
                                 ]
